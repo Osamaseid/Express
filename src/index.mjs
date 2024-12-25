@@ -11,7 +11,8 @@ app.get('/api/send', (req, res) => {
 })
 
 app.get('/api/register', (req, res) => {
-    res.send('hello world');
+    res.send( [{id: '12', name:'osama', email:'osamaseid@gmail.com'
+}]);
 })
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
