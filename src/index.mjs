@@ -10,6 +10,9 @@ app.get('/api/send', (req, res) => {
     res.status(200).json({ "message" : " Hello World"});
 })
 
+app.get('/api/register', (req, res) => {
+    res.send('hello world');
+})
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
