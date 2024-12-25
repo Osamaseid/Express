@@ -5,15 +5,9 @@ const PORT = process.env.PORT || 3000;
 
 const mockUser =[{
   
-  id: '12',
-  name: 'jhon',
-  email: 'jhon@gmail.com'},
-  {id: '12',
-  name: 'jhon',
-  email: 'jhon@gmail.com'},
-  {id: '12',
-  name: 'jhon',
-  email: 'jhon@gmail.com'}
+  },
+  {},
+  {}
 ];
 
 app.get('/', (req, res) => {
